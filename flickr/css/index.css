@@ -1,0 +1,15 @@
+li,ul{list-style: none;}
+a{text-decoration: none;}
+*{padding: 0;margin: 0;}
+body{text-align: center;}
+img{border: 0px;}
+
+
+#top{width: 100%;height: 52px;border: 1px solid #ccc;}
+#bcontain{width: 779px;height: 3000px;margin: 0 auto 0;border: 1px solid #ccc;}
+#clearfix{width: 779px;height: 55px;}
+#maincontent{width: 700px;height: 2800px;padding: 40px 30px 40px 35px;margin: 0 auto 0;border: 1px solid #ccc;}
+#content{width: 700px;height: 500px;margin: 0 0 55px 0;border: 1px solid #ccc;}
+#topmid{width: 780px;height: 100%;margin: 0 auto 0;border: 1px solid #ccc;position: relative;}
+#txtkuang{width: 170px;height: 30px;padding: 4px 30px 4px 10px;margin: 11px 0 0 0;border: 1px solid #ccc;display: block;float: left;}
+#pagename{display: block;width: 126px;height: 20px;padding: 0px 20px 0px 20px;position: absolute;top:0;left: 315px;font-size: 38px;color: #20a6b3;font-family: 'Oleo Script';font-weight: bold;text-shadow: rgb(255, 255, 255) 0px 1px 0px;text-align: center;}

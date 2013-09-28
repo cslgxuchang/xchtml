@@ -1,0 +1,33 @@
+li,ul{list-style: none;}
+a{text-decoration: none;}
+*{padding: 0;margin: 0;}
+body{text-align: center;}
+img{border: 0px;}
+/*----------------基本布局---------------------*/
+#page{width: 100%;height: 1160px;}
+#top{width: 100%;height: 50px;border: 1px solid #ccc;margin: 0 auto 0;background-color: rgba(0, 0, 0, 0.8);}
+#topleft{width: 800px;height: auto;float: left;border: 0px solid #ccc;padding: 0 0 0 16px;}
+#topright{width: 500px;height: auto;float: right;border: 0px solid #ccc;margin: 10px 0 0 0;position: relative;}
+#main{width: 975px;height: 801px;margin: 20px auto 50px auto;background-image: url("image/2.jpg");border: 10px solid #f5f5f5;position: relative;}
+#foot{width: 1349px;height:184px;padding: 17px 0 10px 0;margin: 0 auto 0;}
+
+
+/*----------------基本布局---------------------*/
+
+
+
+#title{width: 70px;height: 49px;display: block;float: left;background-image: url("image/1.png");background-repeat: no-repeat;background-position: 0px 15px;}
+#mul li{float: left;height: 32px;padding: 17px 0 0 0;}
+#mul li a{padding: 0px 20px 0 20px;background-color: transparent;color: #fff;cursor: pointer;font-size: 14px;font-family: Arial,Helvetica,sans-serif;}
+#trimg{width: 33px;height: 33px;display: block;float: right;background-image: url("image/2.png");margin: 0 8px 0 0;}
+#txt{width: 245px;height: 33px;float: right;margin: 0 10px 0 0;}
+#search{width: 27px;height: 30px;display: block;background-image: url("image/3.png");background-position: 0 -134px;position: absolute;top:0 ;left: 420px;z-index: 27;}
+#search:hover{background-position: 0 -94px;}
+#mtitle{width: 966px;height: 52px;padding: 10px 0 0 10px;position: absolute;top:28px;left: 0;text-align: left;line-height:36px;font-size: 30px;color: #363636;background-repeat: no-repeat;background-image: url("image/4.png");background-position: 750px 0;font-family: arial,sans-serif normal;background-color: #fff; opacity: 0.8;}
+#main1{width: 300px;height: 391px;position: absolute;top: 322px;left: 0;background-color: #fff;opacity: 0.8;text-align: left;padding: 5px 0 0 10px;}
+.mtitle{color: #363636;font-family: arial,sans-serif;font-weight: bold;font-size: 22px;line-height: 18px;}
+.mainp{font-size: 12px;font-family: Arial,Helvetica,sans-serif;font-weight: 400;line-height: 21.6px;margin: 0 0 15px 0;color: #000;}
+.mainte{font-size: 12px;font-family: Arial,Helvetica,sans-serif;font-weight: 400;line-height: 21.6px;color: #0063dc;}
+#mainh3{color: #363636;font-weight: 400;}
+#main2{width: 300px;height: 391px;position: absolute;top: 322px;left: 337px;background-color: #fff;opacity: 0.8;text-align: left;padding: 5px 0 0 10px;}
+#txtsearch{width: 280px;height: 27px;border: 1px solid #ccc;}

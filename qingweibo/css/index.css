@@ -1,0 +1,51 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+body{font-family: Tahoma,"宋体";text-align: center;}
+img{border: 0px;}
+
+ul{list-style:none;}
+li{float:left;}
+.slideul1{width:3999px;}
+/*--------------------------Div--------------------------*/
+#loginCon{width: 790px;height: 500px;margin: 0 auto 0;padding: 0px 0 0 0;border: 0px;}
+#topNav{width: 780px;height: 35px;margin: 10px 0  60px 0;padding: 0 10px 0 0;border: 0px;}
+#toptitle{width: 540px;height: 121px;margin: 0 0 40 140px;*margin: 0 0 50px 20px; padding: 0;border: 0px;}
+#login{width: 702px;height: 42px;margin: 0 0 48px 78px;*margin: 0 0 48px 24px; border: 0px;position: relative;}
+#countable{width: 780px;height: 17px;padding: 0;margin: 25px 0 0 0;*margin: 15px 0 0 0;border: 0px;}
+#links{width:780px; height: 18px;padding: 0px;margin: 0;border: 0px;text-align: center;}
+#topright{width: 224px;height: 35px;padding: 0;margin: 0;border: 0px;display: block;float: right}
+#trleft{width: 146px;height: 35px;display: block;margin: 0 10px 0 0;padding: 0; float: left;background-image: url("image/ico_introduce.png");background-repeat: no-repeat;text-decoration: none;}
+#trright{width: 60px;height: 30px;display: block;float: left;padding: 0px;margin: 0;background-image: url("image/btn09.png");background-position: 0 -60px;border-radius: 5px;border: 1px solid #ccc;color: #fff;font-size: 16px;font-family: Microsoft Yahei;text-decoration: none;line-height: 26px;}
+/*--------------------------DivEND----------------------
+
+/*----------------------css------------------------------*/
+#trright:hover{background-image: url("image/btn09.png");background-position: 0 -180px;}
+#toptitleImg{width: 458px;height: 121px;margin: 0 auto 0;padding: 0;border: 0px;background-image: url("image/logo_login.png");}
+.ipt{width: 228px;height: 38px;margin: 0 10px 0 0;padding: 0 9px 0 9px;float: left;border: 1px solid #999;border-color: #9ac2d4; line-height: 25px;*line-height: 36px;font-size: 18px;font-family: Microsoft Yahei; color: #9ac2d4;}
+/*#btnlog{width: 75px;height: 42px;padding: 0px;margin: 0 0 0 0;float: left;}*/
+#email{width: 228px;height: 38px;padding: 0 9px 0 9px;margin: 0 10px 0 0;background-image: url("image/loginipt_bg.png");background-position: -6px -4px;background-repeat: no-repeat;color: #000;}
+#password{width: 228px;height: 38px;padding: 0 9px 0 9px;margin: 0 10px 0 0;background-image: url("image/loginipt_bg.png");background-position: -6px -82px;background-repeat: no-repeat;}
+#diveml{width: 226px;height: 200px;border:1px solid #ccc;position: absolute;z-index: 10px;top: 38px;*left: 20px;display: none;background-color: #fff;}
+
+#emlcontent li{background-color: transparent; font-size: 12px;font-family: 微软雅黑;font-weight: 400;width: 226px;text-align: left;}
+#emlcontent li:hover{background-color: #9ac2d4}
+
+
+#btnsp1{width: 75px;height: 42px;padding: 0 0 0 31px;margin: 0 0 0 0;float: left;background-image: url("image/btn10.png");background-position:0px 0px;background-repeat: no-repeat; display: block;cursor: pointer;}
+#btnsp2{width: 44px;*width: 80px; height: 42px;margin: 0 0 0 0;padding: 0 29px 0 0; background-image: url("image/btn10.png");background-position:-34px -84px;*background-position:-34px -84px;background-repeat: no-repeat; display: block;float: left;line-height:35px;font-family:Microsoft Yahei;font-size: 22px;color: #fff;text-align: left;}
+#pwdback{width: 50px;height: 17px;padding: 0;margin: 12px 0 0 16px;font-size: 12px;font-family: Microsoft Yahei;text-decoration: none;display: block;float: left;color: #9ac2d4;}
+#pwdback:hover{color: #68a2d5;text-decoration: underline;}
+#links a{font-size: 12px;font-family: Microsoft Yahei;text-decoration: none;color: #9ac2d4;}
+#links a:hover{color: #68a2d5;}
+#ship{font-size: 12px;font-family: Microsoft Yahei;color: #9ac2d4}
+.linksp{font-size: 12px;padding: 0 4px 0 6px;color: #9ac2d4;}
+.ct{font-size: 12px;font-family: Microsoft Yahei;text-decoration: none;color: #9ac2d4};
+#countable{font-size: 12px;font-family: Microsoft Yahei;text-decoration: none;color: #9ac2d4;}
+#countable a:hover{color: #68a2d5;}
+/*----------------------cssEND------------------------------*/
+
+
+#slide{width: 1300px;height: 180px;margin:  10px 0 0 0;border: 0px solid #ccc;position: relative;overflow:hidden;}
+.slideul1{width: 2800px;height:180px;position: absolute;left: 0;}
+
+.simg{float: left;}
