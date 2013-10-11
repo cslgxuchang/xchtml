@@ -5,33 +5,36 @@ $(function(){
 
  
 })
-// var i=0;
-//  function add(){
-//  	$(".select").css("background-color","#ccc");
-//   i++;
-//   if(i!=6){
-//   	$("#cimg").css("background-image",'url("css/image/'+i+'.jpg")');
-//   	$(".select").each(function(){
-//   		if (i==$(this).attr("txt")){
-//   			$(this).css("background-color","#f08200");
-//   		};
 
-//   	})
-//   }else{
-//   	i=1;
-//  	$("#cimg").css("background-image",'url("css/image/'+i+'.jpg")');
-//   	$(".select").first().css("background-color","#f08200");
-//   }
   
  	
 
 
 function  events(){
+	$("#hcrinp").val("搜索");
+	$("#hcrinp").keyup(function(){
+		var he=$(this).val();
+		$("#hcrinp").attr("value",he);
+	})
 	$("#hcrinp").focus(function(){
-		$("#hcrinp").val("");
+		 var v=$(this).attr("value");
+
+		 if(v=="搜索"){
+		 	$("#hcrinp").val("");
+		 }
+		
 	});
 	$("#hcrinp").blur(function(){
+		 var fe=$(this).val();
+		if(fe==""){
+		$("#hcrinp").attr("value","搜索");
 		$("#hcrinp").val("搜索");
+		
+		}else{
+			$("#hcrinp").attr("value",fe);
+		}
+		
+		
 	});
 
 	$(".ccd").hover(function(){
