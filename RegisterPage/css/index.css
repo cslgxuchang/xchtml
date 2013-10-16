@@ -1,0 +1,49 @@
+li,ul{list-style: none;}
+a{text-decoration: none;}
+*{padding: 0;margin: 0;}
+body{text-align: center;}
+img{border: 0px;}
+
+
+#page{width: 100%;height: 710px;}
+#header{width: 960px;height: 81px;margin: 0 auto 0;position: relative;}
+#hleft{width: 644px;height: 27px;position: absolute;left: 0;top: 30px;background-image: url("image/1.png");background-position: 0 0;}
+#hl{width: 128px;height:27px;display: block;float: left; }
+#hright{width: 200px;height: 19px;position: absolute;top: 34px;right: 0;text-align: right;}
+#hright a{width: auto;height: 16px;display: block;float: right;color: #003399;font-size: 12px;line-height: 19.2px;margin: 0 5px 0 0;}
+
+#main{width: 960px;height: 589px;margin: 0 auto 0;}
+#maintop{width: 958px;height: 36px;font-size: 14px;color: #fff;text-indent: 20px;line-height: 36px;background-color: rgb(100, 149, 198);background-position: 0px 0px;background-image: url("image/2.png");background-repeat: repeat-x;text-align: left;border: 1px solid rgb(91, 136, 184);border-radius: 2px;}
+#mainbody{width: 958px;height: 550px;border-left: 1px solid #e0e0e0;border-right: 1px solid #e0e0e0;border-bottom: 1px solid #e0e0e0;overflow: hidden;background-image: url("image/bgy.png");background-repeat: repeat-y;}
+#mbleft{width: 582px;height: 463px;padding: 50px 0 36px 60px;border: 0px solid #ccc;float: left;}
+#mbselect{width: 497px;height: 58px;padding: 0 0 0 85px;margin: 0 0 0 0;border: 0px solid #ccc;}
+#mbs{width: 335px;height: 35px;background-image: url("image/1.png");background-position: 0 -432px;}
+#mbs1{width: 167px;height: 35px;display: block;float: left;font-size: 14px;font-weight: 400;font-family: verdana,sans-serif;line-height: 35px;color: #555;}
+#mbs2{width: 167px;height: 35px;display: block;float: left;font-size: 14px;font-weight: 700;font-family: verdana,sans-serif;line-height: 35px;color: #fff;}
+#maink{width: 582px;height: 405px;display: block;}
+#mobile{width: 497px;height: 89px;padding: 8px 0 8px 85px;position: relative;}
+.mba{width: 75px;height: 19px;display: block;position: absolute;top: 13px;left: 0;font-size: 14;text-align: right;color: #555;line-height: }
+.mba span{color: #cc0000;line-height: 19.2px;margin: 0 5px 0 0;}
+.supt{width: 497px;height: 28px;color: #555;text-align: left;}
+.supt1{width: 497px;height: 28px;color: #555;text-align: left;}
+.supt input{width: 245px;height: 26px;padding: 4px 5px 4px 25px;border: 1px solid #ababab;box-shadow: 2px 2px 3px rgb(237, 237, 237) inset;font-size: 14px;border-radius: 3px 3px 3px 3px;float: left;}
+.supt1 input{width: 322px;height: 26px;padding: 4px 5px 4px 25px;border: 1px solid #ababab;box-shadow: 2px 2px 3px rgb(237, 237, 237) inset;font-size: 14px;border-radius: 3px 3px 3px 3px;float: left;}
+.txt{line-height: 19.2px;font-size: 14px;text-align: left;font-family: verdana,sans-serif;color: #555;}
+.tips{width: 497px;height: 16px;padding: 6px 0 4px 0;font-size: 12px;line-height: 16px;text-align: left;color: #999;}
+.tips:hover{color: #555;}
+#btns{width: 497px;height: 30px;padding: 5px 0 0 0;}
+#btna{display: block;width: 105px;height: 28px;padding: 0 20px 0 20px;border:1px solid #bbb;background-image: url("image/3.png");background-position: 0 -72px;background-repeat: repeat-x;color: #555;font-size: 14px;line-height: 28px;font-weight: 700;}
+.regform{width: 497px;height: 54px;padding: 8px 0 8px 85px;position: relative;}
+#item{width: 582px;height: 37px;position: relative;}
+#login{width: 497px;height: 37px;padding: 8px 0 8px 85px;position: relative;}
+#login a{display: block;width: 119px;height: 37px;background-image: url("image/1.png");background-position: 0 -360px;color: #fff;font-size: 14px;font-weight: 700;line-height: 37px;}
+
+
+
+
+#mbright{width: 270px;height: 357px;float: right;padding: 106px 0 0 45px; }
+#imgm{width: 230px;height: 148px;background-image: url("image/1.gif");}
+#intro{width: 270px;height: 70px;}
+
+.introa{width: auto;height: 34px;font-family: verdana,sans-serif;color: #648cB9;font-size: 12px;line-height: 30px;text-align: left;display: block;float: left;}
+.intros{width: auto;height: 29px;font-size: 24px;font-weight: 700;color: #648cB9;line-height: 30px;display: block;float: left;}
