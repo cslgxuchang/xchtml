@@ -10,18 +10,21 @@ img{border: 0px;}
 #hleft{width: 644px;height: 27px;position: absolute;left: 0;top: 30px;background-image: url("image/1.png");background-position: 0 0;}
 #hl{width: 128px;height:27px;display: block;float: left; }
 #hright{width: 200px;height: 19px;position: absolute;top: 34px;right: 0;text-align: right;}
-#hright a{width: auto;height: 16px;display: block;float: right;color: #003399;font-size: 12px;line-height: 19.2px;margin: 0 5px 0 0;}
-
+.hra{width: auto;height: 16px;display: block;float: right;color: #003399;font-size: 12px;line-height: 19.2px;margin: 0 5px 0 0;}
+.hra:hover{text-decoration: underline;}
+.hra2{width: auto;height: 16px;display: block;float: left;color: #003399;font-size: 12px;line-height: 16px;margin: 0 5px 0 0;}
+.hra2:hover{text-decoration: underline;}
+.sp{float: right;color: #ccc;font-size: 12px;line-height: 19.2px;padding: 0 6px 0 3px;}
 #main{width: 960px;height: 589px;margin: 0 auto 0;}
 #maintop{width: 958px;height: 36px;font-size: 14px;color: #fff;text-indent: 20px;line-height: 36px;background-color: rgb(100, 149, 198);background-position: 0px 0px;background-image: url("image/2.png");background-repeat: repeat-x;text-align: left;border: 1px solid rgb(91, 136, 184);border-radius: 2px;}
 #mainbody{width: 958px;height: 550px;border-left: 1px solid #e0e0e0;border-right: 1px solid #e0e0e0;border-bottom: 1px solid #e0e0e0;overflow: hidden;background-image: url("image/bgy.png");background-repeat: repeat-y;}
 #mbleft{width: 582px;height: 463px;padding: 50px 0 36px 60px;border: 0px solid #ccc;float: left;}
 #mbselect{width: 497px;height: 58px;padding: 0 0 0 85px;margin: 0 0 0 0;border: 0px solid #ccc;}
-#mbs{width: 335px;height: 35px;background-image: url("image/1.png");background-position: 0 -432px;}
+#mbs{width: 335px;height: 35px;background-image: url("image/1.png");background-position: -0px -432px;}
 #mbs1{width: 167px;height: 35px;display: block;float: left;font-size: 14px;font-weight: 400;font-family: verdana,sans-serif;line-height: 35px;color: #555;}
 #mbs2{width: 167px;height: 35px;display: block;float: left;font-size: 14px;font-weight: 700;font-family: verdana,sans-serif;line-height: 35px;color: #fff;}
-#maink{width: 582px;height: 405px;display: none;}
-#maink1{width: 582px;height: 405px;display: block;}
+#maink{width: 582px;height: 405px;display:block;}
+#maink1{width: 582px;height: 405px;display: none;}
 #mobile{width: 497px;height: 89px;padding: 8px 0 8px 85px;position: relative;}
 #mobile1{width: 497px;height: 54px;padding: 8px 0 8px 85px;position: relative;}
 
@@ -36,15 +39,17 @@ img{border: 0px;}
 .txt{line-height: 19.2px;font-size: 14px;text-align: left;font-family: verdana,sans-serif;color: #555;}
 .tips{width: 497px;height: 16px;padding: 6px 0 4px 0;font-size: 12px;line-height: 16px;text-align: left;color: #999;}
 .tips2{width: 497px;height: 16px;padding: 6px 0 4px 0;font-size: 12px;line-height: 16px;text-align: left;color: #999;}
+.tips3{display: block; width: auto;height: 16px;padding: 6px 0 4px 0;font-size: 12px;line-height: 4px;text-align: left;color: #999;float: left;}
 .tips:hover{color: #555;}
 .tips2:hover{color: #555;}
+
 #btns{width: 497px;height: 30px;padding: 5px 0 0 0;}
 #btna{display: block;width: 105px;height: 28px;padding: 0 20px 0 20px;border:1px solid #bbb;background-image: url("image/3.png");background-position: 0 -72px;background-repeat: repeat-x;color: #555;font-size: 14px;line-height: 28px;font-weight: 700;}
 .regform{width: 497px;height: 54px;padding: 8px 0 8px 85px;position: relative;}
-#item{width: 582px;height: 37px;position: relative;}
+#item{width: 582px;height: 37px;position: relative;padding: 8px 0 8px 85px;}
 #login{width: 497px;height: 37px;padding: 8px 0 8px 85px;position: relative;}
 #login a{display: block;width: 119px;height: 37px;background-image: url("image/1.png");background-position: 0 -360px;color: #fff;font-size: 14px;font-weight: 700;line-height: 37px;}
-
+#mainAccept{float: left;margin: 0 5px 0 0;}
 
 
 
@@ -57,3 +62,4 @@ img{border: 0px;}
 #mbrdes{width: 208px;height: 44px;padding: 30px 62px 0 0;color: #afafaf;font-size: 12px;line-height: 22px;font-family: verdana,sans-serif;text-align: right;}
 #footer{width: 100%;height: 40px;margin: auto;color: #999;font-family: verdana,sans-serif;text-align: center;line-height: 40px;font-size: 12px;}
 #footer a{width: auto;height: 16px;color: #999;font-family: verdana,sans-serif;text-align: center;line-height: 40px;font-size: 12px;}
+#regimg{width: 120px;height: 50px;position: absolute;top: 0px;left: 290px;background-image: url("image/1.jpg");}

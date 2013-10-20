@@ -5,70 +5,53 @@ $(function(){
 
  
 })
-// var i=0;
-//  function add(){
-//  	$(".select").css("background-color","#ccc");
-//   i++;
-//   if(i!=6){
-//   	$("#cimg").css("background-image",'url("css/image/'+i+'.jpg")');
-//   	$(".select").each(function(){
-//   		if (i==$(this).attr("txt")){
-//   			$(this).css("background-color","#f08200");
-//   		};
-
-//   	})
-//   }else{
-//   	i=1;
-//   	$("#cimg").css("background-image",'url("css/image/'+i+'.jpg")');
-//   	$(".select").first().css("background-color","#f08200");
-//   }
-  
- 	
- }
 
 function  events(){
-	// $(window).scroll(function(){ 
+	$("#mbs1").click(function(){
+		var l=$("#maink").attr("onf");
+		if(l=="false"){
+			$("#mbs").css("background-position","-360px -432px");
+			$("#mbs1").css("color","#fff");
+			$("#mbs2").css("color","#555")
+			$("#maink").attr("onf","on");
+			$("#maink").hide();
+			$("#maink1").show();
 
-	// 	if($(this).scrollTop()>72){
+		}
 
-	// 	$("#headtd").css("top",($(this).scrollTop()) + "px");
-
-	// 	} else{
-	// 		$("#headtd").css("top","72px");
-	// 	}
-	// } );
- //   $(window).scroll(function(){ 
-
-	// 	if($(this).scrollTop()>130){
-
-	// 	$("#back").show();
-	// 	$("#back").css("top",($(this).scrollTop()-40) + "px")
-
-	// 	} else{
-	// 		$("#back").hide();
-	// 		// $("#back").css("position","absolute")
-	// 	}
-	// } );
-
-
- //   $("#backa").click(function(){
- //     $("html,body").animate({scrollTop:0},2000);
- //   });
-
-
-	// $("#tubiao").hover(function(){
-	// 	$("#over").show();
-	// },function(){
-	// 	$("#over").hide();
-	// })
-
-
-	// $(".select").click(function(){
-	// 	var curindex=$(this).attr("txt");
-	// 	$(".select").css("background-color","#ccc");
-	// 	$("#cimg").css("background-image",'url("css/image/'+curindex+'.jpg")');
-	// 	$(this).css("background-color","#f08200");
-
-	// })
+});
+	$("#mbs2").click(function(){
+		var l=$("#maink").attr("onf");
+		if(l=="on"){
+			$("#mbs").css("background-position","0px -432px");
+			$("#mbs2").css("color"," #fff");
+			$("#mbs1").css("color","#555")
+			$("#maink").attr("onf","false");
+			$("#maink1").hide();
+			$("#maink").show();
+		}
+		
+});
+	$(".supt input").mouseover(function(){
+	
+		$("#mobile").find(".tips").css("color","#555");
+	
+	})
+	$(".supt input").mouseout(function(){
+	
+		$("#mobile").find(".tips").css("color","#999");
+	
+	})
+	$(".supt input").focus(function(){
+	
+		$(".supt input").css("border-color","#003399");
+	
+	})
+	$(".supt input").blur(function(){
+	
+		$(".supt input").css("border-color","#ababab");
+	
+	})
+	
   
 }
