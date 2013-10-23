@@ -4,8 +4,16 @@ a{text-decoration: none;}
 body{text-align: center;}
 img{border: 0px;}
 
-
+#page{width: 100%;height: 778px;position: relative;}
+#mover{width: 100%;height: 778px;position: absolute;background-color: #000;opacity: 0.25;z-index: 66;display: none;}
+#uploadimgdiv{width: 700px;height: 551px;top:0px;left: 320px;z-index: 88;position: absolute;background-color: #fff;border: 1px solid #ccc;display: none;}
 #main{width: 900px;height: 778px;margin: 0 auto 0;border: 0px solid #ccc;}
+#uptitle{width: 640px;height: 27px;padding: 23px 30px 23px 30px;}
+#zflg{color: #888;font-size: 24px;line-height: 27px;font-weight: 400;font-family: Tahoma;float: left;}
+#uploadclose{width: 12px;height: 12px;display: block;float: right;background-image: url("image/1.png");background-position: 0px 0px;}
+#addimg{width: 480px;height: 415px;margin: 0 auto 0;background-color: #efefef;}
+
+
 #mtd{width: 900px;height: 37px;background-color: #f0f0f0; }
 #mtda{width: auto;font-family: Tahoma;font-size: 14px;line-height: 37px;float: left;display: block;color: #444;font-weight: bold;}
 #mainb{width: 868px;height: 740px;padding: 0 0 0 30px;border: 1px solid #ccc;}
@@ -20,3 +28,4 @@ img{border: 0px;}
 .lbl{width: auto;height: 40px;font-size: 12px;font-family: Tahoma;display: block;float: left; line-height: 21px;color: #444;}
 .example{width: auto;height: 40px;font-size: 12px;font-family: Tahoma;display: block;float: left; line-height: 21px;color: #444;text-align: left;}
 .divc{width: 768px;height: 72px;float: right;border-bottom: 1px solid #e0e0e0;padding: 4px 0 0 0;}
+.btns{width: 90px;height: 28px;margin: 0 auto 0;margin: 0 10px 0 0;background-color: #7b8c9e;border-radius: 5px;}
