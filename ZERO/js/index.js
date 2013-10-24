@@ -17,6 +17,4 @@ $("#uploadclose").click(function(){
 
 })
 
-  
-
-}
+ }
